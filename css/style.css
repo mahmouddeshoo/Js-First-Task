@@ -1,0 +1,21 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    background-color: #8e3245;
+}
+:root{
+    --primary-color: #fff;
+    --bgColor: #8e3245;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
